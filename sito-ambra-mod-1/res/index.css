@@ -1,0 +1,31 @@
+html, body{
+	font-family:sans-serif;
+	font-size:25px;
+	text-align: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/background.jpg");
+}	
+
+.text, .button{
+	background-color: transparent;
+    top: 40%;
+    position: relative;
+}
+
+.button {
+    font-size: 45px;    
+    background: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
