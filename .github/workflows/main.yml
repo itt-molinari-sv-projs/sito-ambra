@@ -36,4 +36,4 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -qq install git-ftp
-          git ftp push --user ambraitt --passwd w4YFwFyNbctU ftp://ftp.ambraitt.altervista.org/
+          git ftp push --force --user ambraitt --passwd w4YFwFyNbctU ftp://ftp.ambraitt.altervista.org/
