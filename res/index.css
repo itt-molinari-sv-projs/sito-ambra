@@ -5,11 +5,20 @@ html, body{
 }
 
 body {
-  background-image: url("../images/background.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}	
+  background-image: url("../images/background.jpg");
+  background-position: center, center;
+}
+
+#title{
+	font-size:5.5vw;
+	text-align: center;
+    color: red;
+    background: -webkit-linear-gradient(#ff0000, #400000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .text, .button{
 	background-color: transparent;
@@ -18,6 +27,7 @@ body {
 }
 
 .button {
+    font-size: 2.2vw;    
     background: white;
     text-decoration: none;
     color: black;
