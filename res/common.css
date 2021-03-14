@@ -41,32 +41,38 @@ img{
 
 .topbar{
 	width: 100%;
-	height: 5%;
+	//height: 3%;
 	position: fixed;
 	z-index: 1;
-	top: 0;
-	left: 0;
+	//top: 0;
+	//left: 0;
 	overflow: hidden;
-	padding-top: 20px;
+	//padding-top: 20px;
 	background-color: #111;
-	outline: #000 solid 2px;
+	//outline: #000 solid 2px;
 	box-shadow: 0 0 40px rgba(0, 0, 0, 80);
 }
 
 .topbar a {
-  padding: 6px 8px 6px 16px;
+  padding: 6px 10px 6px 10px;
   text-decoration: none;
   font-size: 25px;
   color: #fff;
   display: block;
   float: left;
+  text-align: center;
+}
+
+.topbar a.active {
+  background-color: #EE5C00;
+  color: white;
 }
 
 .topbar a:hover {
-  background-color: #6282BA;
-  padding: 6px 8px 6px 16px;
+  background-color: #FF7E00;
+  //padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  //font-size: 25px;
   color: #fff;
   display: block;
   float: left;
