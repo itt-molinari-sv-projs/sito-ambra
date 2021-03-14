@@ -16,6 +16,13 @@ body {
   background-position: center, center;
 }
 
+img{
+    min-height: 8vw;
+    max-height: 10vw;
+    min-width: 8vw;
+    max-width: 20vw;
+}
+
 .text{
 	background-color: rgba(255, 255, 255, 0.4);
 	text-align: left, center;
